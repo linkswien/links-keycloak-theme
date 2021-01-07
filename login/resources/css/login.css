@@ -11,11 +11,11 @@
 }
 
 a {
-    color: #43187e !important;
+    color: #5c0aa3 !important;
 }
 
 .login-pf body {
-    background: #43187e;
+    background: #5c0aa3;
     height: 100%;
 }
 
@@ -359,11 +359,6 @@ a.zocial  {
 }
 
 @media (max-width: 767px) {
-
-    .login-pf body {
-      background: white;
-    }
-
     #kc-header {
         padding-left: 15px;
         padding-right: 15px;
@@ -382,7 +377,6 @@ a.zocial  {
     div.kc-logo-text {
         margin: 0;
         width: 150px;
-        height: 32px;
         background-size: 100%;
     }
 
