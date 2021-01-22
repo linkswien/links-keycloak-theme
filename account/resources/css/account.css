@@ -27,6 +27,11 @@ header .navbar {
     text-indent: -99999px;
 }
 
+.navbar-pf {
+    background-color: #5c0aa3;
+    border-top: 0;
+}
+
 .navbar-pf .navbar-utility {
 	right: 20px;
     top: -34px;
@@ -192,6 +197,8 @@ header .navbar {
 #kc-form-buttons .btn-primary {
     float: right;
     margin-left: 8px;
+    background-color: #0088ce;
+    background-image: none;
 }
 
 /* Authenticator page */
