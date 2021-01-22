@@ -19,7 +19,9 @@
                 <p><a href="${client.baseUrl}">${kcSanitize(msg("backToApplication"))?no_esc}</a></p>
             </#if>
         </#if>
-        <p>Hier geht's zum <a href="https://wiki.links-wien.at">LINKS Wiki</a>, zur <a href="https://cloud.links-wien.at">LINKS Cloud</a> und zu deinen <a href="https://sso.links-wien.at">LINKS Account Einstellungen</a>.</p>
+        <#if !requiredActions??>
+            <p>Hier geht's zum <a href="https://wiki.links-wien.at">LINKS Wiki</a>, zur <a href="https://cloud.links-wien.at">LINKS Cloud</a> und zu deinen <a href="https://sso.links-wien.at">LINKS Account Einstellungen</a>.</p>
+        </#if>
     </div>
     </#if>
 </@layout.registrationLayout>
