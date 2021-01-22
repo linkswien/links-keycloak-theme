@@ -26,7 +26,7 @@
             </div>
         </#if>
 
-        <div class="form-group ${messagesPerField.printIfExists('email','has-error')}">
+        <div class="form-group ${messagesPerField.printIfExists('email','has-error')}" style="display: none;">
             <div class="col-sm-2 col-md-2">
             <label for="email" class="control-label">${msg("email")}</label> <span class="required">*</span>
             </div>
