@@ -17,6 +17,7 @@ a {
 .login-pf body {
     background: #5c0aa3;
     height: 100%;
+    font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .alert-error {
